@@ -1,0 +1,30 @@
+var textArea = document.getElementById("kenshie");
+var copy = document.getElementById("copyBtn");
+let button = document.getElementById("submitBtn").addEventListener('click', function(){
+    let kenshie = document.getElementById("kenshie").value;
+    if(typeof kenshie == "string" && kenshie.length === 0){
+        alert("Missing code");
+    }
+    var obfuscationResult = JavaScriptObfuscator.obfuscate(
+        `${kenshie}`,
+        {
+            compact: false,
+            controlFlowFlattening: true,
+            controlFlowFlatteningThreshold: 1,
+            numbersToExpressions: true,
+            simplify: true,
+            stringArrayShuffle: true,
+            splitStrings: true,
+            stringArrayThreshold: 1
+        }
+    );
+    result = obfuscationResult.getObfuscatedCode();
+    textArea.value = result;
+})
+var copyBtn = document.getElementById("copyBtn").addEventListener('click', function(){
+    if(textArea.value.trim()){
+        textArea.select();
+        document.execCommand("copy");
+        alert("Copied successfully")
+    }
+})
