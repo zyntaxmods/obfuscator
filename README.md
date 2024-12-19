@@ -1,4 +1,4 @@
 Simple javascript obfuscation tool inspired by obfuscator.io
 
 <h1>KENSHIE</h1>
-<a href="">Go to link</a>
+<a href="https://www.facebook.com/kenshie.jee.9?mibextid=ZbWKwL">LINK</a>
