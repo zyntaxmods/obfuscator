@@ -247,7 +247,7 @@ header {
 }
 @media screen and (max-width: 500px) {
   #mainParticle {
-    height: 200%;
+    height: 270%;
     width: 100%;
     overflow: hidden;
   }
