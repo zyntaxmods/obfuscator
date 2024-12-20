@@ -238,13 +238,6 @@ header {
   font-size: 14px;
 }
 
-@media screen and (max-width: 375px) {
-  #mainParticle {
-    height: 200%;
-    width: 100%;
-    overflow: hidden;
-  }
-}
 @media screen and (max-width: 500px) {
   #mainParticle {
     height: 270%;
@@ -267,49 +260,6 @@ header {
     margin: 100px auto;
     padding: 10px 10px;
     width: 350px;
-  }
-  .title {
-    margin: 5px auto;
-  }
-  .title h1 {
-    font-size: 20px;
-  }
-  .title p, .title li, .title span {
-    font-size: 12px;
-    margin: 0 10px;
-  }
-  .title span {
-    font-weight: bold;
-    margin: 0px 5px;
-  }
-  .features {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 1000px) {
-  #mainParticle {
-    height: 170%;
-    width: 100%;
-    overflow: hidden;
-  }
-  .headerTitle h1 {
-    font-size: 20px;
-    line-height: 1;
-  }
-  .headerTitle a {
-    font-size: 20px;
-  }
-  .headerDesc {
-    justify-content: center;
-    gap: 10px;
-    margin: 0 auto;
-  }
-  .headerDesc a {
-    font-size: 14px;
-  }
-  .card {
-    margin: 300px auto;
   }
   .title {
     margin: 5px auto;
