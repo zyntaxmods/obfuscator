@@ -58,7 +58,7 @@ main {
   position: absolute;
   background: transparent;
   width: 100%;
-  height: 170%;
+  height: 260%;
   z-index: 0;
 }
 
@@ -131,7 +131,7 @@ header {
   width: 350px;
   padding: 30px 30px;
   border-radius: 20px;
-  margin: auto;
+  margin: 200px auto;
   background: rgba(250, 250, 250, 0.1);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -191,7 +191,7 @@ header {
 }
 
 .title {
-  margin: 200px auto;
+  margin: 100px auto;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -265,6 +265,8 @@ header {
   }
   .card {
     margin: 100px auto;
+    padding: 10px 10px;
+    width: 350px;
   }
   .title {
     margin: 5px auto;
